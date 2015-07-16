@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/floating_numeric_keyboard_rounded_rectangle"
+    android:visibility="invisible">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fnk_key_0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"/>
+        <Button
+            android:id="@+id/fnk_key_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"/>
+        <Button
+            android:id="@+id/fnk_key_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"/>
+        <Button
+            android:id="@+id/fnk_key_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"/>
+        <Button
+            android:id="@+id/fnk_key_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"/>
+        <ImageButton
+            android:id="@+id/fnk_key_del"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/ic_input_delete"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fnk_key_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5"/>
+        <Button
+            android:id="@+id/fnk_key_6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"/>
+        <Button
+            android:id="@+id/fnk_key_7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"/>
+        <Button
+            android:id="@+id/fnk_key_8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"/>
+        <Button
+            android:id="@+id/fnk_key_9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"/>
+        <ImageButton
+            android:id="@+id/fnk_key_clean"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
